@@ -9,7 +9,7 @@ from builtins import print
 from time import sleep
 import signal
 import asyncio
-#from gpiozero import LED, Button
+from gpiozero import LED, Button
 from threading import Thread
 import firebase_admin
 from firebase_admin import credentials
@@ -24,7 +24,7 @@ DB_OUTPUTS = "salidas"
 DB_NAME    = "iot_test"
 IN1_NAME    = "pulsador"
 OUT1_NAME    = "led"
-
+led = LED(G)
 
 
 class IOT():

@@ -1,8 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# autor: Jefferson Rivera
-# Abril de 2018
-# email: riverajefer@gmail.com
+# autor: William Chamorro
+
 
 import sys
 from time import sleep
@@ -94,7 +93,7 @@ class IOT():
     def botonesStart(self):
         print('Start btn !')
         #BUTTON.when_pressed = self.pulsador_on
-        #BUTTON.when_released = self.pulsador_off
+        #BUTTON.when_released = self.william
 
 
 print ('START !')
